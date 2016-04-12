@@ -26,6 +26,10 @@ public class TranslationAction extends AnAction {
     public void actionPerformed(AnActionEvent e) {
         Application application = ApplicationManager.getApplication();
         TranslationAppComponent component = application.getComponent(TranslationAppComponent.class);
+        if(component == null) {
+            Messages.showDialog("崩溃了！暂无解决方案", "Selected Element:", new String[]{"OK"}, -1, null);
+            return;
+        }
         String apiKey = component.getApiKey();
         String keyFrom = component.getKeyFrom();
 
