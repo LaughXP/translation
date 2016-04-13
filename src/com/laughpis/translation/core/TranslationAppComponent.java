@@ -1,9 +1,9 @@
 package com.laughpis.translation.core;
 
+import com.intellij.ide.util.PropertiesComponent;
 import com.intellij.openapi.components.ApplicationComponent;
 import com.intellij.openapi.options.Configurable;
 import com.intellij.openapi.options.ConfigurationException;
-import com.intellij.openapi.util.text.StringUtil;
 import com.laughpis.translation.gui.ConfigForm;
 import com.laughpis.translation.utils.TranslationConstants;
 import org.jetbrains.annotations.Nls;
@@ -25,13 +25,12 @@ public class TranslationAppComponent implements ApplicationComponent,Configurabl
 
     @Override
     public void initComponent() {
-        this.apiKey = TranslationConstants.DEFAULT_API_KEY;
-        this.keyFrom = TranslationConstants.DEFAULT_KEY_FROM;
+        this.apiKey = PropertiesComponent.getInstance().getValue(TranslationConstants.API_KEY);
+        this.keyFrom = PropertiesComponent.getInstance().getValue(TranslationConstants.KEY_FROM);
     }
 
     @Override
     public void disposeComponent() {
-        // TODO: insert component disposal logic here
     }
 
     @Override
@@ -55,18 +54,14 @@ public class TranslationAppComponent implements ApplicationComponent,Configurabl
     @Nullable
     @Override
     public JComponent createComponent() {
+        PropertiesComponent instance = PropertiesComponent.getInstance();
         this.textFeildApiKey = ConfigForm.getTextFeildApiKey();
-        this.apiKey = this.textFeildApiKey.getText();
-        if(this.apiKey == null || StringUtil.isEmpty(this.apiKey)) {
-            this.apiKey = TranslationConstants.DEFAULT_API_KEY;
-            this.textFeildApiKey.setText(TranslationConstants.DEFAULT_API_KEY);
-        }
+        this.apiKey = instance.getValue(TranslationConstants.API_KEY,TranslationConstants.DEFAULT_API_KEY_VAL);
+        this.textFeildApiKey.setText(this.apiKey);
+
         this.textFeildKeyFrom = ConfigForm.getTextFeildKeyFrom();
-        this.keyFrom = this.textFeildKeyFrom.getText();
-        if(this.keyFrom == null || StringUtil.isEmpty(this.keyFrom)) {
-            this.keyFrom = TranslationConstants.DEFAULT_KEY_FROM;
-            this.textFeildKeyFrom.setText(TranslationConstants.DEFAULT_KEY_FROM);
-        }
+        this.keyFrom = instance.getValue(TranslationConstants.KEY_FROM,TranslationConstants.DEFAULT_KEY_FROM_VAL);
+        this.textFeildKeyFrom.setText(this.keyFrom);
         return ConfigForm.getConfigForm();
     }
 
@@ -79,18 +74,21 @@ public class TranslationAppComponent implements ApplicationComponent,Configurabl
     public void apply() throws ConfigurationException {
         apiKey = this.textFeildApiKey.getText();
         keyFrom = this.textFeildKeyFrom.getText();
+        setConfig();
     }
 
     @Override
     public void reset() {
         this.textFeildApiKey.setText(this.apiKey);
         this.textFeildKeyFrom.setText(this.keyFrom);
+        setConfig();
     }
 
     @Override
     public void disposeUIResources() {
         this.textFeildApiKey.setText(this.apiKey);
         this.textFeildKeyFrom.setText(this.keyFrom);
+        setConfig();
     }
 
     public String getApiKey() {
@@ -99,5 +97,10 @@ public class TranslationAppComponent implements ApplicationComponent,Configurabl
 
     public String getKeyFrom() {
         return this.keyFrom;
+    }
+
+    private void setConfig() {
+        PropertiesComponent.getInstance().setValue(TranslationConstants.API_KEY,this.apiKey);
+        PropertiesComponent.getInstance().setValue(TranslationConstants.KEY_FROM,this.keyFrom);
     }
 }
