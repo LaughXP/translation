@@ -13,11 +13,7 @@ import org.apache.http.util.EntityUtils;
 import java.net.URLDecoder;
 
 /**
-<<<<<<< HEAD
  * @author by laugh on 2016/3/29.
-=======
- * Created by chunya on 2016/3/29.
->>>>>>> 3549c0a7d09753aa9f6bfbf8cffd9e4cc1c5fb5b
  */
 public class HttpClientPool {
 

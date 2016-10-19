@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/laughpis/translation/gui/ConfigForm.form">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -37,9 +37,12 @@
       <file leaf-file-name="ConfigForm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/laughpis/translation/gui/ConfigForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="340">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+              <folding>
+                <marker date="1476869695000" expanded="true" signature="62:66" ph="/**...*/" />
+                <marker date="1476869695000" expanded="true" signature="1252:1388" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,19 +50,16 @@
       <file leaf-file-name="TranslationAppComponent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/laughpis/translation/core/TranslationAppComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="28" column="97" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="97" />
+            <state relative-caret-position="374">
+              <caret line="32" column="97" selection-start-line="32" selection-start-column="97" selection-end-line="32" selection-end-column="97" />
               <folding>
-                <element signature="e#1195#1196#0" expanded="true" />
-                <element signature="e#1231#1232#0" expanded="true" />
-                <element signature="e#1292#1293#0" expanded="true" />
-                <element signature="e#1328#1329#0" expanded="true" />
-                <element signature="e#2124#2125#0" expanded="true" />
-                <element signature="e#2151#2152#0" expanded="true" />
-                <element signature="e#2739#2740#0" expanded="true" />
-                <element signature="e#2773#2774#0" expanded="true" />
-                <element signature="e#2807#2808#0" expanded="true" />
-                <element signature="e#2842#2843#0" expanded="true" />
+                <element signature="e#2593#2594#0" expanded="true" />
+                <element signature="e#2620#2621#0" expanded="true" />
+                <element signature="e#3208#3209#0" expanded="true" />
+                <element signature="e#3242#3243#0" expanded="true" />
+                <element signature="e#3276#3277#0" expanded="true" />
+                <element signature="e#3311#3312#0" expanded="true" />
+                <marker date="1476869695000" expanded="true" signature="516:520" ph="/**...*/" />
               </folding>
             </state>
           </provider>
@@ -68,9 +68,12 @@
       <file leaf-file-name="TranslationAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/laughpis/translation/core/TranslationAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="37" column="66" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
-              <folding />
+            <state relative-caret-position="595">
+              <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+              <folding>
+                <marker date="1476869695000" expanded="true" signature="735:739" ph="/**...*/" />
+                <marker date="1476869695000" expanded="true" signature="5728:5791" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/laughpis/translation/utils/TranslationConstants.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="50" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="50" />
+              <caret line="11" column="50" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -108,8 +111,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="408">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -586,7 +589,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10660000" />
+    <option name="totallyTimeSpent" value="10855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1053" extended-state="0" />
@@ -633,7 +636,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/laughpis/translation/core/TranslationAppComponent.java</url>
-          <line>56</line>
+          <line>68</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -683,7 +686,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
+          <folding>
+            <marker date="1476869695000" expanded="true" signature="62:66" ph="/**...*/" />
+            <marker date="1476869695000" expanded="true" signature="1252:1388" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -692,16 +698,13 @@
         <state relative-caret-position="306">
           <caret line="28" column="97" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="97" />
           <folding>
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
-            <element signature="e#2151#2152#0" expanded="true" />
-            <element signature="e#2739#2740#0" expanded="true" />
-            <element signature="e#2773#2774#0" expanded="true" />
-            <element signature="e#2807#2808#0" expanded="true" />
-            <element signature="e#2842#2843#0" expanded="true" />
+            <element signature="e#2593#2594#0" expanded="true" />
+            <element signature="e#2620#2621#0" expanded="true" />
+            <element signature="e#3208#3209#0" expanded="true" />
+            <element signature="e#3242#3243#0" expanded="true" />
+            <element signature="e#3276#3277#0" expanded="true" />
+            <element signature="e#3311#3312#0" expanded="true" />
+            <marker date="1476869695000" expanded="true" signature="516:520" ph="/**...*/" />
           </folding>
         </state>
       </provider>
@@ -710,7 +713,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="37" column="66" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
-          <folding />
+          <folding>
+            <marker date="1476869695000" expanded="true" signature="735:739" ph="/**...*/" />
+            <marker date="1476869695000" expanded="true" signature="5728:5791" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -726,7 +732,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
+          <folding>
+            <marker date="1476869695000" expanded="true" signature="62:66" ph="/**...*/" />
+            <marker date="1476869695000" expanded="true" signature="1252:1388" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -735,16 +744,13 @@
         <state relative-caret-position="306">
           <caret line="28" column="97" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="97" />
           <folding>
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
-            <element signature="e#2151#2152#0" expanded="true" />
-            <element signature="e#2739#2740#0" expanded="true" />
-            <element signature="e#2773#2774#0" expanded="true" />
-            <element signature="e#2807#2808#0" expanded="true" />
-            <element signature="e#2842#2843#0" expanded="true" />
+            <element signature="e#2593#2594#0" expanded="true" />
+            <element signature="e#2620#2621#0" expanded="true" />
+            <element signature="e#3208#3209#0" expanded="true" />
+            <element signature="e#3242#3243#0" expanded="true" />
+            <element signature="e#3276#3277#0" expanded="true" />
+            <element signature="e#3311#3312#0" expanded="true" />
+            <marker date="1476869695000" expanded="true" signature="516:520" ph="/**...*/" />
           </folding>
         </state>
       </provider>
@@ -753,7 +759,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1476869695000" expanded="true" signature="735:739" ph="/**...*/" />
+            <marker date="1476869695000" expanded="true" signature="5728:5791" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -777,7 +786,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
+          <folding>
+            <marker date="1476869695000" expanded="true" signature="62:66" ph="/**...*/" />
+            <marker date="1476869695000" expanded="true" signature="1252:1388" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -786,16 +798,13 @@
         <state relative-caret-position="272">
           <caret line="26" column="29" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="29" />
           <folding>
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
-            <element signature="e#2151#2152#0" expanded="true" />
-            <element signature="e#2739#2740#0" expanded="true" />
-            <element signature="e#2773#2774#0" expanded="true" />
-            <element signature="e#2807#2808#0" expanded="true" />
-            <element signature="e#2842#2843#0" expanded="true" />
+            <element signature="e#2593#2594#0" expanded="true" />
+            <element signature="e#2620#2621#0" expanded="true" />
+            <element signature="e#3208#3209#0" expanded="true" />
+            <element signature="e#3242#3243#0" expanded="true" />
+            <element signature="e#3276#3277#0" expanded="true" />
+            <element signature="e#3311#3312#0" expanded="true" />
+            <marker date="1476869695000" expanded="true" signature="516:520" ph="/**...*/" />
           </folding>
         </state>
       </provider>
@@ -804,7 +813,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
+          <folding>
+            <marker date="1476869695000" expanded="true" signature="735:739" ph="/**...*/" />
+            <marker date="1476869695000" expanded="true" signature="5728:5791" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -828,7 +840,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
+          <folding>
+            <marker date="1476869695000" expanded="true" signature="62:66" ph="/**...*/" />
+            <marker date="1476869695000" expanded="true" signature="1252:1388" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -837,16 +852,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
-            <element signature="e#2151#2152#0" expanded="true" />
-            <element signature="e#2739#2740#0" expanded="true" />
-            <element signature="e#2773#2774#0" expanded="true" />
-            <element signature="e#2807#2808#0" expanded="true" />
-            <element signature="e#2842#2843#0" expanded="true" />
+            <element signature="e#2593#2594#0" expanded="true" />
+            <element signature="e#2620#2621#0" expanded="true" />
+            <element signature="e#3208#3209#0" expanded="true" />
+            <element signature="e#3242#3243#0" expanded="true" />
+            <element signature="e#3276#3277#0" expanded="true" />
+            <element signature="e#3311#3312#0" expanded="true" />
+            <marker date="1476869695000" expanded="true" signature="516:520" ph="/**...*/" />
           </folding>
         </state>
       </provider>
@@ -855,7 +867,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
+          <folding>
+            <marker date="1476869695000" expanded="true" signature="735:739" ph="/**...*/" />
+            <marker date="1476869695000" expanded="true" signature="5728:5791" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -880,16 +895,13 @@
         <state relative-caret-position="289">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
-            <element signature="e#2151#2152#0" expanded="true" />
-            <element signature="e#2739#2740#0" expanded="true" />
-            <element signature="e#2773#2774#0" expanded="true" />
-            <element signature="e#2807#2808#0" expanded="true" />
-            <element signature="e#2842#2843#0" expanded="true" />
+            <element signature="e#2593#2594#0" expanded="true" />
+            <element signature="e#2620#2621#0" expanded="true" />
+            <element signature="e#3208#3209#0" expanded="true" />
+            <element signature="e#3242#3243#0" expanded="true" />
+            <element signature="e#3276#3277#0" expanded="true" />
+            <element signature="e#3311#3312#0" expanded="true" />
+            <marker date="1476869695000" expanded="true" signature="516:520" ph="/**...*/" />
           </folding>
         </state>
       </provider>
@@ -898,7 +910,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="24" column="29" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="29" />
-          <folding />
+          <folding>
+            <marker date="1476869695000" expanded="true" signature="735:739" ph="/**...*/" />
+            <marker date="1476869695000" expanded="true" signature="5728:5791" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -906,7 +921,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding />
+          <folding>
+            <marker date="1476869695000" expanded="true" signature="62:66" ph="/**...*/" />
+            <marker date="1476869695000" expanded="true" signature="1252:1388" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -979,7 +997,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/laughpis/translation/gui/ConfigForm.form">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -989,36 +1007,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/laughpis/translation/gui/ConfigForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="340">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <marker date="1476869695000" expanded="true" signature="62:66" ph="/**...*/" />
+            <marker date="1476869695000" expanded="true" signature="1252:1388" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/laughpis/translation/core/TranslationAppComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="28" column="97" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="97" />
+        <state relative-caret-position="374">
+          <caret line="32" column="97" selection-start-line="32" selection-start-column="97" selection-end-line="32" selection-end-column="97" />
           <folding>
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
-            <element signature="e#2151#2152#0" expanded="true" />
-            <element signature="e#2739#2740#0" expanded="true" />
-            <element signature="e#2773#2774#0" expanded="true" />
-            <element signature="e#2807#2808#0" expanded="true" />
-            <element signature="e#2842#2843#0" expanded="true" />
+            <element signature="e#2593#2594#0" expanded="true" />
+            <element signature="e#2620#2621#0" expanded="true" />
+            <element signature="e#3208#3209#0" expanded="true" />
+            <element signature="e#3242#3243#0" expanded="true" />
+            <element signature="e#3276#3277#0" expanded="true" />
+            <element signature="e#3311#3312#0" expanded="true" />
+            <marker date="1476869695000" expanded="true" signature="516:520" ph="/**...*/" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/laughpis/translation/core/TranslationAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="37" column="66" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
-          <folding />
+        <state relative-caret-position="595">
+          <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+          <folding>
+            <marker date="1476869695000" expanded="true" signature="735:739" ph="/**...*/" />
+            <marker date="1476869695000" expanded="true" signature="5728:5791" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1041,7 +1062,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/laughpis/translation/utils/TranslationConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="50" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="50" />
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -1056,8 +1077,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="408">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding />
         </state>
       </provider>
