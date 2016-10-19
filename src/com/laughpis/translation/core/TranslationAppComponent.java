@@ -13,7 +13,11 @@ import org.jetbrains.annotations.Nullable;
 import javax.swing.*;
 
 /**
+<<<<<<< HEAD
  * @author by laugh on 2016/4/12.
+=======
+ * Created by chunya on 2016/4/12.
+>>>>>>> 3549c0a7d09753aa9f6bfbf8cffd9e4cc1c5fb5b
  */
 public class TranslationAppComponent implements ApplicationComponent,Configurable {
     private JTextField textFeildApiKey;
@@ -55,11 +59,19 @@ public class TranslationAppComponent implements ApplicationComponent,Configurabl
     @Override
     public JComponent createComponent() {
         PropertiesComponent instance = PropertiesComponent.getInstance();
+<<<<<<< HEAD
         this.textFeildApiKey = ConfigForm.getTextFieldApiKey();
         this.apiKey = instance.getValue(TranslationConstants.API_KEY,TranslationConstants.DEFAULT_API_KEY_VAL);
         this.textFeildApiKey.setText(this.apiKey);
 
         this.textFeildKeyFrom = ConfigForm.getTextFieldKeyFrom();
+=======
+        this.textFeildApiKey = ConfigForm.getTextFeildApiKey();
+        this.apiKey = instance.getValue(TranslationConstants.API_KEY,TranslationConstants.DEFAULT_API_KEY_VAL);
+        this.textFeildApiKey.setText(this.apiKey);
+
+        this.textFeildKeyFrom = ConfigForm.getTextFeildKeyFrom();
+>>>>>>> 3549c0a7d09753aa9f6bfbf8cffd9e4cc1c5fb5b
         this.keyFrom = instance.getValue(TranslationConstants.KEY_FROM,TranslationConstants.DEFAULT_KEY_FROM_VAL);
         this.textFeildKeyFrom.setText(this.keyFrom);
         return ConfigForm.getConfigForm();

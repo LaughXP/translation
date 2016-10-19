@@ -11,9 +11,15 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 target/
+<<<<<<< HEAD
 # .idea/
 out/
 # *.iml
+=======
+.idea/
+out/
+*.iml
+>>>>>>> 3549c0a7d09753aa9f6bfbf8cffd9e4cc1c5fb5b
 *.ipr
 *.iws
 *.tar.gz

@@ -18,11 +18,19 @@ import com.laughpis.translation.utils.TranslationConstants;
 import java.net.URLEncoder;
 
 /**
+<<<<<<< HEAD
  * @author by laugh on 2016/4/12.
  */
 public class TranslationAction extends AnAction {
 
     private JsonParser parser = new JsonParser();
+=======
+ * Created by chunya on 2016/4/12.
+ */
+public class TranslationAction extends AnAction {
+
+    JsonParser parser = new JsonParser();
+>>>>>>> 3549c0a7d09753aa9f6bfbf8cffd9e4cc1c5fb5b
 
     @Override
     public void actionPerformed(AnActionEvent e) {
@@ -32,10 +40,15 @@ public class TranslationAction extends AnAction {
             Messages.showDialog("崩溃了！暂无解决方案", "Selected Element:", new String[]{"OK"}, -1, null);
             return;
         }
+<<<<<<< HEAD
 //        String apiKey = component.getApiKey();
 //        String keyFrom = component.getKeyFrom();
         String apiKey = TranslationConstants.DEFAULT_API_KEY_VAL;
         String keyFrom = TranslationConstants.DEFAULT_KEY_FROM_VAL;
+=======
+        String apiKey = component.getApiKey();
+        String keyFrom = component.getKeyFrom();
+>>>>>>> 3549c0a7d09753aa9f6bfbf8cffd9e4cc1c5fb5b
         if (checkApiKey(apiKey, keyFrom)) {
             return;
         }
@@ -93,12 +106,21 @@ public class TranslationAction extends AnAction {
 
     private boolean checkApiKey(String apiKey, String keyFrom) {
         if (apiKey == null || keyFrom == null) {
+<<<<<<< HEAD
             String msg = "没有设置翻译api\n" +
                     "勤奋的人早已经去有道api官网申请了\t:\thttp://fanyi.youdao.com/openapi\n" +
                     "以下是懒人专用api,每小时只允许调用1000次:\n" +
                     "apikey\t:\t" + TranslationConstants.DEFAULT_API_KEY_VAL + "\nkeyfrom\t:\t" + TranslationConstants.DEFAULT_KEY_FROM_VAL +
                     "\n请打开setting,搜索translation. 已经帮你填好，你只需要点击apply按钮。\n这个弹出窗的意义在于,去申请自己的api key!";
             Messages.showDialog(msg, "Selected Element:", new String[]{"OK"}, 0, null);
+=======
+            StringBuilder msg = new StringBuilder("没有设置翻译api\n" +
+                    "勤奋的人早已经去有道api官网申请了\t:\thttp://fanyi.youdao.com/openapi\n" +
+                    "以下是懒人专用api,每小时只允许调用1000次:\n");
+            msg.append("apikey\t:\t" + TranslationConstants.DEFAULT_API_KEY_VAL + "\nkeyfrom\t:\t" + TranslationConstants.DEFAULT_KEY_FROM_VAL);
+            msg.append("\n请打开setting,搜索translation. 已经帮你填好，你只需要点击apply按钮。\n这个弹出窗的意义在于,去申请自己的api key!");
+            Messages.showDialog(msg.toString(), "Selected Element:", new String[]{"OK"}, 0, null);
+>>>>>>> 3549c0a7d09753aa9f6bfbf8cffd9e4cc1c5fb5b
             return true;
         }
         return false;
