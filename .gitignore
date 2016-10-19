@@ -4,7 +4,7 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+# *.jar
 *.war
 *.ear
 
@@ -12,6 +12,7 @@
 hs_err_pid*
 target/
 # .idea/
+.idea/workspace.xml
 out/
 # *.iml
 *.ipr
